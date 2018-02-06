@@ -1,2 +1,2 @@
-# java_lesson_1
-И как всегда начнём с "Hello Word"
+# java_lesson
+И как всегда начнём с "Hello World"
