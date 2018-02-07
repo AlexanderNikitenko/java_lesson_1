@@ -1,0 +1,47 @@
+public class Peremennie{
+
+     public static void main(String []args){
+        System.out.println("Целочисленные типы данных");
+        byte num1 = 123; // от -128 до 127 (8 бит)
+        short num2 = 1221; // от -32768 до 32767 (16 бит)
+        char num3 = 'R'; // беззнаковое целое число, представляющее собой символ UTF-16 (буквы и цифры) (16 бит)
+        int num4 = 1234567890; // от -2147483648 до 2147483647 (32 бит)
+        long num5 = -987654321; // от -9223372036854775808 до 9223372036854775807 (64 бит)
+        
+        System.out.println("Типы с плавающей точкой");
+        float num6 = 1.1f; // от -1.4e-45f до 3.4e+38f (32 бит)
+        double num7 = 1.2; // от -4.9e-324 до 1.7e+308 (64 бит)
+        
+        System.out.println("Логический тип");
+        boolean num8 = true; // true (истина) или false (ложь) (8 (в массивах), 32 (не в массивах используется int))
+        
+        System.out.println("Ссылочные типы");
+        String num8 = "Настя"; // строковые литералы
+        
+        System.out.println("Обёртки");
+        byte num9;
+        Byte boxed; // Оборачивание примитива в объект называется упаковкой (boxing), а обратный процесс распаковкой (unboxing)
+        
+        short num10;
+        Short boxed;
+        
+        int num11;
+        Integer boxed;
+        
+        long num12;
+        Long boxed;
+        
+        char num13;
+        Character boxed;
+        
+        float num14;
+        Float boxed;
+        
+        double num15;
+        Double boxed;
+        
+        boolean num16;
+        Boolean boxed;
+        
+    }
+}
